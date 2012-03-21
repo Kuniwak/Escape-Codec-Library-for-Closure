@@ -1,5 +1,8 @@
 h1. Escape Codec Library conformed to Closure
 
+日本語のREADMEは "こちら":https://github.com/OrgaChem/Escape-Codec-Library-for-Closure/edit/master/README_Ja.textile
+
+
 h2. Abstract
 
 It is customed "ECL(Escape Codec Library) files":http://nurucom-archives.hp.infoseek.co.jp/digital/ [1] for Google Closure Library users.
