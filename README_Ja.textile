@@ -1,0 +1,20 @@
+h1. Closure Library 対応の Escape Codec Library
+
+h2. 概要
+
+このスクリプトは "ECL(Escape Codec Library) ":http://nurucom-archives.hp.infoseek.co.jp/digital/ [1] の関数群をClosure Libraryに対応するように書き直したものです。
+また定数(JIS11280)の定義がIE6で遅いので、生成アルゴリズムを改善しています。（"参考":http://www.drk7.jp/MT/archives/001324.html ）
+
+たぶんIE5.0+, Slepnir, Safari, Chrome, NetScape7, Operaで動くと思うのですが、動作確認はしていません。
+
+fn1. 現在、配布元のURLがデッドリンクになっているようです。ちなみにWaybackMachineにアーカイブが "残っています":http://web.archive.org/web/20100819132459/http://nurucom-archives.hp.infoseek.co.jp/digital/escape-codec-library.html 。
+
+
+h2. API リファレンス
+
+"Wiki":https://github.com/OrgaChem/Escape-Codec-Library-for-Closure/wiki/API-%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9(API-Reference-for-Japanese) を参照してください。
+英語版は "こちら":https://github.com/OrgaChem/Escape-Codec-Library-for-Closure/wiki/API-Reference
+
+h2. 謝辞
+
+元ファイルを提供していた "ヌルコムアーカイブス・デジタル制作室":http://nurucom-archives.hp.infoseek.co.jp/ 様と、改良アルゴリズムを公開している "drk7.jp":http://www.drk7.jp/MT/archives/001324.html 様にお礼を申し上げます。もしライセンスの関係で問題があるようであれば公開をとりやめるので、 orga.chem.job(at)gmail.com までご連絡をいただけると助かります。
