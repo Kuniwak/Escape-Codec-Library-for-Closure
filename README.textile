@@ -1,6 +1,6 @@
 h1. Escape Codec Library conformed to Closure
 
-日本語のREADMEは "こちら":https://github.com/OrgaChem/Escape-Codec-Library-for-Closure/edit/master/README_Ja.textile
+日本語のREADMEは "こちら":https://github.com/OrgaChem/Escape-Codec-Library-for-Closure/blob/master/README_Ja.textile
 
 
 h2. Abstract
