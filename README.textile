@@ -19,4 +19,5 @@ Show the "Wiki":https://github.com/OrgaChem/Escape-Codec-Library-for-Closure/wik
 
 h2. Acknowledgment
 
+Thanks "ヌルコムアーカイブス・デジタル制作室":http://nurucom-archives.hp.infoseek.co.jp/ who provided the original script.
 Thanks "drk7.jp":http://www.drk7.jp/MT/archives/001324.html who provided the faster algorithm.
