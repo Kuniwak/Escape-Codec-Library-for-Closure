@@ -2,7 +2,7 @@ h1. Closure Library 対応の Escape Codec Library
 
 h2. 概要
 
-このスクリプトは "ECL(Escape Codec Library) ":http://nurucom-archives.hp.infoseek.co.jp/digital/ [1] の関数群をClosure Libraryに対応するように書き直したものです。
+このスクリプトは "ECL(Escape Codec Library)":http://nurucom-archives.hp.infoseek.co.jp/digital/ [1] の関数群をClosure Libraryに対応するように書き直したものです。
 また定数(JIS11280)の定義がIE6で遅いので、生成アルゴリズムを改善しています。（"参考":http://www.drk7.jp/MT/archives/001324.html ）
 
 たぶんIE5.0+, Slepnir, Safari, Chrome, NetScape7, Operaで動くと思うのですが、動作確認はしていません。
@@ -17,4 +17,5 @@ h2. API リファレンス
 
 h2. 謝辞
 
-元ファイルを提供していた "ヌルコムアーカイブス・デジタル制作室":http://nurucom-archives.hp.infoseek.co.jp/ 様と、改良アルゴリズムを公開している "drk7.jp":http://www.drk7.jp/MT/archives/001324.html 様にお礼を申し上げます。もしライセンスの関係で問題があるようであれば公開をとりやめるので、 orga.chem.job(at)gmail.com までご連絡をいただけると助かります。
+元ファイルを提供していた "ヌルコムアーカイブス・デジタル制作室":http://nurucom-archives.hp.infoseek.co.jp/ 様と、改良アルゴリズムを公開している "drk7.jp":http://www.drk7.jp/MT/archives/001324.html 様にお礼を申し上げます。
+ライセンスが確認できなかったのでMITライセンスで公開しましたが、もし問題があるようでしたら公開をとりやめますので、 orga.chem.job(at)gmail.com までご連絡をいただけると助かります。
