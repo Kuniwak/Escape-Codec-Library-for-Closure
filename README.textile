@@ -15,110 +15,144 @@ h2. API Reference
 
 h3. StaticProperties
 
-* ecl.EncodeType.EUCJP
+h4. ecl.EncodeType.EUCJP
+
 ** A type string means "EUC-JP":http://en.wikipedia.org/wiki/EUC-JP#EUC-JP.
 
-* ecl.EncodeType.JIS7
+h4. ecl.EncodeType.JIS7
+
 ** A type string means "JIS7":http://ja.wikipedia.org/wiki/%E6%BC%A2%E5%AD%97%E3%82%B7%E3%83%95%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89.
 
-* ecl.EncodeType.JIS8
+h4. ecl.EncodeType.JIS8
+
 ** A type string means "JIS8":http://ja.wikipedia.org/wiki/%E6%BC%A2%E5%AD%97%E3%82%B7%E3%83%95%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89.
 
-* ecl.EncodeType.SJIS
+h4. ecl.EncodeType.SJIS
+
 ** A type string means "Shift-JIS":http://en.wikipedia.org/wiki/Shift_JIS.
 
-* ecl.EncodeType.UNICODE
+h4. ecl.EncodeType.UNICODE
+
 ** A type string means "Unicode":http://en.wikipedia.org/wiki/Unicode.
 
-* ecl.EncodeType.UTF16LE
+h4. ecl.EncodeType.UTF16LE
+
 ** A type string means "UTF16LE":http://en.wikipedia.org/wiki/UTF-16#Byte_order_encoding_schemes.
 
-* ecl.EncodeType.UTF7
+h4. ecl.EncodeType.UTF7
+
 ** A type string means "UTF7":http://en.wikipedia.org/wiki/UTF-7.
 
-* ecl.EncodeType.UTF8
+h4. ecl.EncodeType.UTF8
+
 ** A type string means "UTF8":http://en.wikipedia.org/wiki/UTF-8.
 
-* ecl.JCT11280
+h4. ecl.JCT11280
+
 ** JCT11280 table.
 
-* ecl.JCT8836
+h4. ecl.JCT8836
+
 ** JCT8836 table.
 
 
 
 h3. StaticMethods
 
-* ecl.escapeEUCJP(*String* str): *String*
+h4. ecl.escapeEUCJP(*String* str): *String*
+
 ** Escapes "EUC-JP":http://en.wikipedia.org/wiki/EUC-JP#EUC-JP.
 
-* ecl.escapeJIS7(*String* str): *String*
+h4. ecl.escapeJIS7(*String* str): *String*
+
 ** Escapes "JIS7":http://ja.wikipedia.org/wiki/%E6%BC%A2%E5%AD%97%E3%82%B7%E3%83%95%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89.
 
-* ecl.escapeJIS8(*String* str): *String*
+h4. ecl.escapeJIS8(*String* str): *String*
+
 ** Escapes "JIS8":http://ja.wikipedia.org/wiki/%E6%BC%A2%E5%AD%97%E3%82%B7%E3%83%95%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89.
 
-* ecl.escapeSJIS(*String* str): *String*
+h4. ecl.escapeSJIS(*String* str): *String*
+
 ** Escapes "Shift-JIS":http://en.wikipedia.org/wiki/Shift_JIS.
 
-* ecl.escapeUnicode(*String* str): *String*
+h4. ecl.escapeUnicode(*String* str): *String*
+
 ** Escapes "Unicode":http://en.wikipedia.org/wiki/Unicode.
 
-* ecl.escapeUTF16LE(*String* str): *String*
+h4. ecl.escapeUTF16LE(*String* str): *String*
+
 ** Escapes "UTF16LE":http://en.wikipedia.org/wiki/UTF-16#Byte_order_encoding_schemes.
 
-* ecl.escapeUTF7(*String* str): *String*
+h4. ecl.escapeUTF7(*String* str): *String*
+
 ** Escapes "UTF7":http://en.wikipedia.org/wiki/UTF-7.
 
-* ecl.escapeUTF8(*String* str): *String*
+h4. ecl.escapeUTF8(*String* str): *String*
+
 ** Escapes "UTF8":http://en.wikipedia.org/wiki/UTF-8.
 
-* ecl.getEscapeCodeType(*String* str): *String*
+h4. ecl.getEscapeCodeType(*String* str): *String*
+
 ** Get unescape code type, such as "UTF8" or "EUC-JP".
 
-* ecl.isEUCJP(*String* str): *Boolean*
+h4. ecl.isEUCJP(*String* str): *Boolean*
+
 ** Returns true if the string is "EUC-JP":http://en.wikipedia.org/wiki/EUC-JP#EUC-JP escaped, false otherwise.
 
-* ecl.isJIS7(*String* str): *Boolean*
+h4. ecl.isJIS7(*String* str): *Boolean*
+
 ** Returns true if the string is "JIS7":http://ja.wikipedia.org/wiki/%E6%BC%A2%E5%AD%97%E3%82%B7%E3%83%95%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89 escaped, false otherwise.
 
-* ecl.isJIS8(*String* str): *Boolean*
+h4. ecl.isJIS8(*String* str): *Boolean*
+
 ** Returns true if the string is "JIS8":http://ja.wikipedia.org/wiki/%E6%BC%A2%E5%AD%97%E3%82%B7%E3%83%95%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89 escaped, false otherwise.
 
-* ecl.isSJIS(*String* str): *Boolean*
+h4. ecl.isSJIS(*String* str): *Boolean*
+
 ** Returns true if the string is "Shift-JIS":http://en.wikipedia.org/wiki/Shift_JIS escaped, false otherwise.
 
-* ecl.isUnicode(*String* str): *Boolean*
+h4. ecl.isUnicode(*String* str): *Boolean*
+
 ** Returns true if the string is "Unicode":http://en.wikipedia.org/wiki/Unicode escaped, false otherwise.
 
-* ecl.isUTF7(*String* str): *Boolean*
+h4. ecl.isUTF7(*String* str): *Boolean*
+
 ** Returns true if the string is "UTF7":http://en.wikipedia.org/wiki/UTF-7 escaped, false otherwise.
 
-* ecl.isUTF8(*String* str): *Boolean*
+h4. ecl.isUTF8(*String* str): *Boolean*
+
 ** Returns true if the string is "UTF8":http://en.wikipedia.org/wiki/UTF-8 escaped, false otherwise.
 
-* ecl.unescapeEUCJP(*String* str): *String*
+h4. ecl.unescapeEUCJP(*String* str): *String*
+
 ** Unescapes "EUC-JP":http://en.wikipedia.org/wiki/EUC-JP#EUC-JP.
 
-* ecl.unescapeJIS7(*String* str): *String*
+h4. ecl.unescapeJIS7(*String* str): *String*
+
 ** Unescapes "JIS7":http://ja.wikipedia.org/wiki/%E6%BC%A2%E5%AD%97%E3%82%B7%E3%83%95%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89.
 
-* ecl.unescapeJIS8(*String* str): *String*
+h4. ecl.unescapeJIS8(*String* str): *String*
+
 ** Unescapes "JIS8":http://ja.wikipedia.org/wiki/%E6%BC%A2%E5%AD%97%E3%82%B7%E3%83%95%E3%83%88%E3%82%B3%E3%83%BC%E3%83%89.
 
-* ecl.unescapeSJIS(*String* str): *String*
+h4. ecl.unescapeSJIS(*String* str): *String*
+
 ** Unescapes "Shift-JIS":http://en.wikipedia.org/wiki/Shift_JIS.
 
-* ecl.unescapeUnicode(*String* str): *String*
+h4. ecl.unescapeUnicode(*String* str): *String*
+
 ** Unescapes "Unicode":http://en.wikipedia.org/wiki/Unicode.
 
-* ecl.unescapeUTF16LE(*String* str): *String*
+h4. ecl.unescapeUTF16LE(*String* str): *String*
+
 ** Unescapes "UTF16LE":http://en.wikipedia.org/wiki/UTF-16#Byte_order_encoding_schemes.
 
-* ecl.unescapeUTF7(*String* str): *String*
+h4. ecl.unescapeUTF7(*String* str): *String*
+
 ** Unescapes "UTF7":http://en.wikipedia.org/wiki/UTF-7.
 
-* ecl.unescapeUTF8(*String* str): *String*
+h4. ecl.unescapeUTF8(*String* str): *String*
+
 ** Unescapes "UTF8":http://en.wikipedia.org/wiki/UTF-8.
 
 
