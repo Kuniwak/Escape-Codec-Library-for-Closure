@@ -3,7 +3,7 @@ h1. Closure Library 対応の Escape Codec Library
 h2. 概要
 
 このスクリプトは "ECL(Escape Codec Library)":http://nurucom-archives.hp.infoseek.co.jp/digital/ [1] の関数群をClosure Libraryに対応するように書き直したものです。
-また定数(JIS11280)の定義がIE6で遅いので、生成アルゴリズムを改善しています。（"参考":http://www.drk7.jp/MT/archives/001324.html ）
+また定数(JIS11280)の定義がIE6で遅いので、生成アルゴリズムを改善しています。（ "参考":http://www.drk7.jp/MT/archives/001324.html ）
 
 たぶんIE5.0+, Slepnir, Safari, Chrome, NetScape7, Operaで動くと思うのですが、動作確認はしていません。
 
