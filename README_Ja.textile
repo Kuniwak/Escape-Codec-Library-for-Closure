@@ -13,7 +13,7 @@ fn1. 現在、配布元のURLがデッドリンクになっているようです
 h2. API リファレンス
 
 "Wiki":https://github.com/OrgaChem/Escape-Codec-Library-for-Closure/wiki/API-%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9(API-Reference-for-Japanese) を参照してください。
-英語版は "こちら":https://github.com/OrgaChem/Escape-Codec-Library-for-Closure/wiki/API-Reference
+英語版は "こちら":https://github.com/OrgaChem/Escape-Codec-Library-for-Closure/wiki/API-Reference 。
 
 h2. 謝辞
 
