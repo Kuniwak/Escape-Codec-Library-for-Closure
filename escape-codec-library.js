@@ -1,8 +1,9 @@
+// This script licensed under the MIT.
+// http://orgachem.mit-license.org
 //
-// escape Codec Library: ecl.js (Ver.041208)
-//
-// Copyright (C) http://nurucom-archives.hp.infoseek.co.jp/digital/
-//
+// Original script:
+//  escape Codec Library: ecl.js (Ver.041208)
+//  Copyright (C) http://nurucom-archives.hp.infoseek.co.jp/digital/
 
 /**
  * @fileoverview Escape Codec Library for Google Closure Library.
